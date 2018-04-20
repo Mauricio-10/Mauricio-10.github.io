@@ -1,0 +1,188 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+/* Extra CSS*/
+
+
+body {
+  font-family: Montserrat;
+  color: white;
+  text-align: center;
+}
+.navbar {
+background: #8b0202;
+align-items: center;
+}
+.container {
+  margin:auto;
+  padding: 5px;
+  width: 100%;
+}
+.container h1, p {
+  text-align: center;
+  
+  
+}
+#main-img {
+  width: 100%;
+  height: 780px;
+  background: url("https://images.unsplash.com/photo-1519397154350-533cea5b8bff?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=009599aa0979619a04f21ec0d5486955&auto=format&fit=crop&w=1050&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+}
+.header{
+  color: white;
+  text-align: center;
+  font-weight: 900;
+  
+}
+.my-4 {
+  color: white;
+}
+
+.lead {
+  color: white;
+  font-weight: 800;
+  opacity: 1;
+  text-align: center;
+}
+.container-2 {
+  width: 100%; 
+  background: #5e0101;
+  text-align: center;
+  color: white;
+  
+}
+#expertise{
+  height: 300px;
+}
+#content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 65px;
+}
+section{
+  background: #434343;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.html img {
+  height: 60px;
+}
+.css img {
+  height: 60px;
+}
+.js img{
+  height: 60px;
+}
+.bs img {
+  height: 60px;
+}
+.sass img {
+  height: 60px;
+}
+#carouselExampleControls {
+/*padding-top: 30px;
+padding-bottom: 30px;*/
+}
+.h2 {
+  background: #5e0101;
+  text-align: center;
+  color: white;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.contact{
+  padding-top:15px;
+  text-align: center;
+}
+
+form{
+  padding: 10px;
+  }
+footer{
+  background: #5e0101;
+  width:100%;
+  
+}
+.container-3 h2 {
+  color: white;
+  background: #5e0101;
+  padding: 15px;
+
+}
+.btn-primary{
+  padding: 5px 47px;
+  background: white;
+  color:black;
+  font-weight:900;
+  border: none;
+}
+.icon-bar a{
+  color:white;
+  font-size: 2.5rem;
+  align-items: baseline;
+  justify-content: center;
+  position: center;
+   padding-right: 5px;
+   margin-top:5px;
+}
+.icon-bar{
+  text-align: center;
+ 
+  
+}
+.copyright{
+  color: white;
+  font-size: .5em;
+  margin-bottom: 0;
+  padding: 10px;
+}
+@media (max-width:480px) {
+  body{
+    max-width: 100%
+
+  }
+}
+
+
+
+
+
+
